@@ -2,7 +2,9 @@
   <form @submit.prevent="register" class="form-login">
     <div class="card">
       <div class="card-header text-center">
-        <h1 class="mb-0">Twitter Search</h1>
+        <img src="https://www.chelseafcbrasil.com/wp-content/uploads/2017/06/twitter-icon-circle-blue-logo-preview.png" class="twitterLogo"/>
+  
+        <h1 class="mb-0"><b>Twitter Search</b></h1>
       </div>
       <div class="card-body">
         <div class="form-group">
@@ -66,6 +68,10 @@
     width: 30%;
     color: var(--darker)
   }
+}
+.twitterLogo{
+    height: 10vh;
+
 }
 .link {
   color: var(--featured);

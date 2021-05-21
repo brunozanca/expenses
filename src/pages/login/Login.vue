@@ -2,9 +2,12 @@
 <template>
   <form @submit.prevent="doLogin()" class="form-login">
     <div class="card">
-      <div class="card-header text-center">
-        <h1 class="mb-0">Twitter Search</h1>
+      <div class="card-header text-center">    
+           <img src="https://www.chelseafcbrasil.com/wp-content/uploads/2017/06/twitter-icon-circle-blue-logo-preview.png" class="twitterLogo"/>
+         
+        <h1 class="mb-0"><b>Twitter Search</b></h1>
       </div>
+      
       <div class="card-body">
         <div class="form-group">
           <input required type="email" v-model="email" class="form-control" placeholder="E-mail" />
@@ -138,6 +141,10 @@ export default {
     top: -12px;
     z-index: 1;
 }  
+.twitterLogo{
+    height: 10vh;
+
+}
 .or-seperator {
     margin-top: 20px;
     text-align: center;
